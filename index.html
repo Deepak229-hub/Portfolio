@@ -8,23 +8,116 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=M+PLUS+Rounded+1c&family=Playwrite+MX+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&family=Sixtyfour&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=M+PLUS+Rounded+1c&family=Playwrite+MX+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&family=Sixtyfour&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>Deepak Tiwari</h1>
-        <nav>
-            <div class="nav-links">
+        <div class="navigation">
+            <nav>
                 <a href="#">Home</a>
-                <a href="#">About Me</a>
-                <a href="#">Skills</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
                 <a href="#">Contact</a>
-            </div>
-        </nav>
+                <div class="social-container">
+                    <a href="#"><img src="assets/icons8-instagram-50.png" alt=""></a>
+                    <a href="#"><img src="assets/icons8-linkedin-50.png" alt=""></a>
+                    <a href="#"><img src="assets/icons8-facebook-50.png" alt=""></a>
+                </div>
+            </nav>
+        </div>
     </header>
+
     <section class="hero">
-        
+        <div class="hero-container">
+            <div class="intro">
+                <h1>Deepak Tiwari</h1>
+                <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum voluptatem labore nemo quos
+                    repudiandae dolores magnam ut quasi tempore maiores, perferendis at, quidem voluptatum nulla eos
+                    officiis numquam consequatur nobis.</small>
+                <div class="btn">
+                    <a href="#about">More About me</a>
+                </div>
+            </div>
+            <div class="pfp">
+                <img src="assets/Profile.png" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div>
+            <h2>About Me</h2>
+        </div>
+        <div>
+            <p>Hi, I'm Deepak, a <b>full-stack developer</b> passionate about creating <b>interactive</b>,
+                <b>accessible</b> web experiences. I specialize in <b>PostgreSQL</b>,
+                <b>authentication-and-security</b>, <b>JavaScript</b> and building <b>Responsive UIs</b>.</p>
+            <p>I love turning ideas into intuitive digital experiences that make people's lives easier. My goal is
+                always to create digital experiences that are intuitive and enjoyable.</p>
+            <p>When I'm not coding, you'll find me playing games, watching shows, or experimenting with new recipes. I'm
+                currently open to freelance projects and collaborations — let's connect!</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div>
+            <h2>My Skills</h2>
+        </div>
+        <div class="skills-container">
+            <div class="cards">
+                <div><img class="skill-img" src="assets/html-5.png" alt="html"></div>
+                <hr>
+                <div>
+                    <p>HTML5</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div><img class="skill-img" src="assets/css-3.png" alt="html"></div>
+                <hr>
+                <div>
+                    <p>CSS3</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div><img class="skill-img" src="assets/js.png" alt="html"></div>
+                <hr>
+                <div>
+                    <p>JavaScript</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div><img class="skill-img" src="assets/node.png" alt="html"></div>
+                <hr>
+                <div>
+                    <p>Node.js</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div><img class="skill-img" src="assets/react.png" alt="html"></div>
+                <hr>
+                <div>
+                    <p>React.js</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div><img class="skill-img" src="assets/icons8-express-js-50.png" alt="html"></div>
+                <hr>
+                <div>
+                    <p>Express.js</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div><img class="skill-img" src="assets/icons8-postgresql-50.png" alt="html"></div>
+                <hr>
+                <div>
+                    <p>PostgreSQL</p>
+                </div>
+            </div>
+            
+        </div>
     </section>
 </body>
 
